@@ -94,3 +94,12 @@ h3 {
 #badass_gif:hover {
   background-image: url("images/Thor.gif");
 }
+
+#cheers_gif {
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+#cheers_gif:hover {
+  background-image: url("Images/Cheers\(Leonardo\ Di\ Caprio\).gif");
+}
