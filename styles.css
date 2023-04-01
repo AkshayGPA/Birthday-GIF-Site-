@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  background-color: #a2d2ff;
+}
+
+h1 {
+  font-size: 50px;;
+}
+
+#title {
+  font-family: 'Righteous', cursive;
+  color: #df2935;
+  text-shadow: 5px -5px 3px #fdca40;
+}
+
+h3 {
+  letter-spacing: 2px;;
+}
+
+#img_arjun {
+  width: 300px;
+  border-radius: 50%;
+  border: 9px solid #efb0c9;
+}
+
+#bday_age {
+  background-color: #efb0c9;
+  padding: 5px 12px;
+  border-radius: 5px;
+} 
+
+#bday_date {
+  margin: 0;
+  background-color: #efb0c9;
+  padding: 5px 12px;
+  border-radius: 3px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift_section {
+  margin-top: 60px;
+}
+
+.gift_title {
+  margin-bottom: 10px;
+}
+
+.gift_instructions {
+  margin-top: 0;
+}
+
+/* .gift_reveal {
+  width: 500px;
+  margin-top: 10px;
+  border: 7px solid white;
+  border-radius: 15px;
+} */
+
+.gift_reveal {
+  background: url("Images/GiftCover.jpg") no-repeat center;
+  height: 500px;
+  width: 650px;
+  background-size: cover;
+
+  /* margin-top: 10px; */
+  border: 7px solid white;
+  border-radius: 15px;
+
+  margin: 10px auto 0 auto;
+}
+
+#excited_gif:hover {
+  /* background: url("https://giphy.com/clips/theoffice-the-office-peacock-tv-show-G96zgIcQn1L2xpmdxi") no-repeat center; */
+
+  background-image: url("Images/Excited.gif");
+  background-size: cover;
+}
+
+#enter_office_gif:hover {
+  background-image: url("images/rock-smiling.gif");
+}
+
+#genius_gif:hover {
+  background-image: url("images/Awesome.gif");
+}
+
+#badass_gif:hover {
+  background-image: url("images/Thor.gif");
+}
